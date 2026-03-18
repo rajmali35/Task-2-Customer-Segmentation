@@ -1,9 +1,36 @@
-Task-01: House Price Prediction using Linear Regression
+# Prodigy Infotech Data Science Internship
 
-Objective:
-To develop a machine learning model that predicts house prices based on key features such as living area, number of bedrooms, bathrooms, and overall quality of the house.
+## Task 1: House Price Prediction using Linear Regression
 
-Tools & Technologies Used:
+---
+
+## 📌 Objective
+
+To build a machine learning model that predicts house prices based on features like living area, number of bedrooms, bathrooms, and overall quality.
+
+---
+
+## 📊 Dataset
+
+House Prices dataset from Kaggle:
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+
+---
+
+## ⚙️ Steps Performed
+
+* Loaded dataset using Pandas
+* Selected important features (GrLivArea, BedroomAbvGr, FullBath, OverallQual)
+* Handled missing values
+* Split data into training and testing sets (80:20)
+* Trained a Linear Regression model
+* Predicted house prices
+* Evaluated model using MAE, MSE, and R² Score
+* Visualized results using scatter plot
+
+---
+
+## 🛠️ Tools & Technologies
 
 * Python
 * Pandas
@@ -11,26 +38,36 @@ Tools & Technologies Used:
 * Scikit-learn
 * Matplotlib
 
-Dataset:
-The dataset used is the House Prices dataset from Kaggle, which contains various features related to residential homes.
+---
 
-Process:
+## 📈 Results
 
-1. Loaded the dataset using Pandas
-2. Selected important features: GrLivArea, BedroomAbvGr, FullBath, OverallQual
-3. Handled missing values by removing null entries
-4. Split the dataset into training and testing sets (80:20 ratio)
-5. Applied Linear Regression model using Scikit-learn
-6. Predicted house prices on test data
-7. Evaluated model performance using:
+* MAE: 28290.36
+* MSE: 1832990106.76
+* R² Score: 0.7610
 
-   * Mean Absolute Error (MAE): 28290.36
-   * Mean Squared Error (MSE): 1832990106.76
-   * R2 Score: 0.7610
-8. Visualized results using a scatter plot (Actual vs Predicted Prices)
+---
 
-Results:
-The model achieved an R2 score of 0.7610, indicating a good relationship between selected features and house prices.
+## 📊 Output Visualization
 
-Conclusion:
-The Linear Regression model was able to predict house prices with good accuracy. The visualization shows that predicted values are reasonably close to actual values, demonstrating effective model performance. The model can be further improved by including more relevant features and applying advanced machine learning algorithms.
+![Result](result.png)
+
+Scatter plot showing Actual vs Predicted prices.
+
+---
+
+## ▶️ How to Run
+
+1. Install required libraries
+2. Place dataset (`train.csv`) in the project folder
+3. Run the script:
+
+   ```
+   python linear_regression_model.py
+   ```
+
+---
+
+## ✅ Conclusion
+
+The model achieved good accuracy with an R² score of 0.76, indicating a strong relationship between selected features and house prices. The predicted values are reasonably close to actual values. Further improvements can be made by adding more features and applying advanced machine learning models such as Random Forest or Gradient Boosting.
