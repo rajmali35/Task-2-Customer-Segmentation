@@ -1,9 +1,10 @@
-Task-01: House Price Prediction using Linear Regression
+# 🏠 House Price Prediction using Linear Regression
 
-Objective:
-To develop a machine learning model that predicts house prices based on key features such as living area, number of bedrooms, bathrooms, and overall quality of the house.
+## 📌 Objective
 
-Tools & Technologies Used:
+To build a machine learning model that predicts house prices based on features like living area, number of bedrooms, bathrooms, and overall quality.
+
+## 🛠️ Tools & Technologies
 
 * Python
 * Pandas
@@ -11,26 +12,30 @@ Tools & Technologies Used:
 * Scikit-learn
 * Matplotlib
 
-Dataset:
-The dataset used is the House Prices dataset from Kaggle, which contains various features related to residential homes.
+## 📊 Dataset
 
-Process:
+House Prices dataset from Kaggle.
 
-1. Loaded the dataset using Pandas
-2. Selected important features: GrLivArea, BedroomAbvGr, FullBath, OverallQual
-3. Handled missing values by removing null entries
-4. Split the dataset into training and testing sets (80:20 ratio)
-5. Applied Linear Regression model using Scikit-learn
-6. Predicted house prices on test data
-7. Evaluated model performance using:
+## ⚙️ Process
 
-   * Mean Absolute Error (MAE): 28290.36
-   * Mean Squared Error (MSE): 1832990106.76
-   * R2 Score: 0.7610
-8. Visualized results using a scatter plot (Actual vs Predicted Prices)
+1. Data loading and preprocessing
+2. Feature selection
+3. Train-test split (80:20)
+4. Linear Regression model training
+5. Prediction on test data
+6. Evaluation using MAE, MSE, R2 Score
+7. Visualization of results
 
-Results:
-The model achieved an R2 score of 0.7610, indicating a good relationship between selected features and house prices.
+## 📈 Results
 
-Conclusion:
-The Linear Regression model was able to predict house prices with good accuracy. The visualization shows that predicted values are reasonably close to actual values, demonstrating effective model performance. The model can be further improved by including more relevant features and applying advanced machine learning algorithms.
+* MAE: 28290.36
+* MSE: 1832990106.76
+* R2 Score: 0.7610
+
+## 📉 Visualization
+
+Scatter plot showing Actual vs Predicted prices.
+
+## ✅ Conclusion
+
+The model achieved good accuracy with an R2 score of 0.76, indicating a strong relationship between selected features and house prices. Further improvements can be made using advanced models and additional features.
