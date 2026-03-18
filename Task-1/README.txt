@@ -14,7 +14,8 @@ To build a machine learning model that predicts house prices based on features l
 
 ## 📊 Dataset
 
-House Prices dataset from Kaggle.
+House Prices dataset from Kaggle:
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
 ## ⚙️ Process
 
@@ -23,7 +24,7 @@ House Prices dataset from Kaggle.
 3. Train-test split (80:20)
 4. Linear Regression model training
 5. Prediction on test data
-6. Evaluation using MAE, MSE, R2 Score
+6. Evaluation using MAE, MSE, and R2 Score
 7. Visualization of results
 
 ## 📈 Results
@@ -32,10 +33,22 @@ House Prices dataset from Kaggle.
 * MSE: 1832990106.76
 * R2 Score: 0.7610
 
-## 📉 Visualization
+## 📊 Output Visualization
+
+![Result](result.png)
 
 Scatter plot showing Actual vs Predicted prices.
 
+## ▶️ How to Run
+
+1. Install required libraries
+2. Place dataset (`train.csv`) in the project folder
+3. Run the script:
+
+   ```
+   python linear_regression_model.py
+   ```
+
 ## ✅ Conclusion
 
-The model achieved good accuracy with an R2 score of 0.76, indicating a strong relationship between selected features and house prices. Further improvements can be made using advanced models and additional features.
+The model achieved good accuracy with an R2 score of 0.76, indicating a strong relationship between selected features and house prices. The predicted values are reasonably close to actual values. Further improvements can be made by adding more features and using advanced machine learning models such as Random Forest or Gradient Boosting.
