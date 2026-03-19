@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Prodigy Infotech Data Science Internship
 
 ## Task 1: House Price Prediction using Linear Regression
@@ -31,14 +30,6 @@ https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
 ---
 
-=======
-# 🏠 House Price Prediction using Linear Regression
-
-## 📌 Objective
-
-To build a machine learning model that predicts house prices based on features like living area, number of bedrooms, bathrooms, and overall quality.
-
->>>>>>> eac1dcc4b016e44d670f73efbf7bf7cf2d8b9804
 ## 🛠️ Tools & Technologies
 
 * Python
