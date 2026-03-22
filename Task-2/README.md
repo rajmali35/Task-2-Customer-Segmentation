@@ -50,11 +50,11 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
 
 ### Elbow Method
 
-![Elbow](elbow.png)
+![Elbow](Task-2/elbow.png)
 
 ### Customer Segmentation
 
-![Clusters](clusters.png)
+![Clusters](Task-2/clusters.png)
 
 ---
 
